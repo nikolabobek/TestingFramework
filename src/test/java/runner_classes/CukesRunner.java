@@ -1,4 +1,4 @@
-package runner_Classes;
+package runner_classes;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
