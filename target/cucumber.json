@@ -1,0 +1,41 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-03T02:19:43.167Z",
+        "line": 4,
+        "name": "Sample",
+        "description": "",
+        "id": "sample;sample",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "sample step",
+            "match": {
+              "location": "step_definitions.Sample_Step_Definition.sample_step()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Sample",
+    "description": "",
+    "id": "sample",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/sample.feature",
+    "tags": []
+  }
+]
